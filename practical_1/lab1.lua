@@ -3,11 +3,24 @@ Bratiloveanu Florentina Stefania
 First Lua Tutorial :D
 Fotonation 2015
 --]]
+--[[
+q1. Why is the local keyword important? (hint: default variable scope is not local)
+a1: Well, maybe we need that variable only in some block and we don't want to make it global and consume the memory :D
 
--- q1. Why is the local keyword important? (hint: default variable scope is not local)
--- a1: Well, maybe we need that variable only in some block and we don't want to make it global and consume the memory :D
+q2. What is the difference between a.f() and a:f()? (hint: one implicitly adds self as the first argument)
+a2: We use : for instances and not for classes. Actually : brings alive self keyword 
 
+q3.  What does require do, and why do we sometimes capture its return value but sometimes
+not? (this is a way to isolate things into namespaces to prevent naming conflicts, related to the answer to why we need to use local)
+a3: we use require for caching and avoid running the file multiple times
 
+q4.What is the Lua equivalent of a list object? of a dictionary? How do you iterate over each
+of these?
+a4.
+lists: name = {obj_1, ..., obj_n} and access with name[position] where position >=1
+dicts: t = {key1 = 'value1', key2 = false} => t.key1
+user pairs function
+]]--
 ----------------------------------------------------
 -- 1. Variables and flow control.
 ----------------------------------------------------
