@@ -180,7 +180,7 @@ sgd_params = {
 -- but should typically be determinined using cross-validation.
 
 -- we cycle 1e4 times over our training data
-
+--[[
 for i = 1,1e4 do
 
    -- this variable is used to estimate the average loss
@@ -212,7 +212,7 @@ for i = 1,1e4 do
    print('current loss = ' .. current_loss)
 
 end
-
+]]--
 ----------------------------------------------------------------------
 -- 5. Test the trained model.
 
@@ -239,13 +239,59 @@ for i=1, 3 do
 end
 print('--------------------------')
 
+-- least square solution --
+X = data:narrow(2, 2, 2)
+y = data:narrow(2, 1, 1)
+X_bias = torch.Tensor(X:size()[1], 1 + X:size()[2]):fill(1)
+X_bias:narrow(2, 2, 2):copy(X)
+print('X')
+print(X)
+print('X_bias')
+print(X_bias)
+theta = torch.Tensor(1, X_bias:size(2))
+print('theta')
+--print(torch.mm(torch.mm(torch.inverse(torch.mm(X_bias:transpose(1,2),-- X_bias)), X_bias:transpose(1,2))), y)
+theta = torch.inverse(torch.mm(X_bias:transpose(1,2), X_bias))
+theta = torch.mm(theta, X_bias:transpose(1, 2))
+theta = torch.mm(theta, y)
+print(theta:size())
+print(theta)
 
 
 
 
 
-print('id  approx   text')
+
+
+--print('id  approx   text')
 for i = 1,(#data)[1] do
    local myPrediction = model:forward(data[i][{{2,3}}])
-   print(string.format("%2d  %6.2f %6.2f", i, myPrediction[1], text[i]))
+   --print(string.format("%2d  %6.2f %6.2f", i, myPrediction[1], text[i]))
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
