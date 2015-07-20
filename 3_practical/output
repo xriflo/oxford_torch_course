@@ -1,0 +1,2440 @@
+[0m<mnist> loading only 6000 examples[0m	
+[0m<mnist> done[0m	
+[0m--------------------------------[0m	
+[0m loaded dataset "train"[0m	
+[0minputs[0m	
+ 6000
+ 1024
+[torch.LongStorage of size 2]
+
+[0mtargets[0m	
+ 6000
+[torch.LongStorage of size 1]
+
+[0m--------------------------------[0m	
+[0m<mnist> loading only 2000 examples[0m	
+[0m<mnist> done[0m	
+[0m--------------------------------[0m	
+[0m loaded dataset "test"[0m	
+[0minputs[0m	
+ 2000
+ 1024
+[torch.LongStorage of size 2]
+
+[0mtargets[0m	
+ 2000
+[torch.LongStorage of size 1]
+
+[0m--------------------------------[0m	
+[0;36m10[0m	
+[0;36m1[0m	
+[0mminibatches processed:     10, loss = 64874.511798[0m	
+[0mminibatches processed:     20, loss = 38358.926994[0m	
+[0mminibatches processed:     30, loss = 0.000000[0m	
+[0mminibatches processed:     40, loss = 9872.923866[0m	
+[0mminibatches processed:     50, loss = 56683.361415[0m	
+[0mminibatches processed:     60, loss = 3967.537773[0m	
+[0mminibatches processed:     70, loss = 40194.600397[0m	
+[0mminibatches processed:     80, loss = 0.000000[0m	
+[0mminibatches processed:     90, loss = 11987.319696[0m	
+[0mminibatches processed:    100, loss = 0.000000[0m	
+[0mminibatches processed:    110, loss = 16665.251747[0m	
+[0mminibatches processed:    120, loss = 22870.138092[0m	
+[0mminibatches processed:    130, loss = 0.000000[0m	
+[0mminibatches processed:    140, loss = 16023.255251[0m	
+[0mminibatches processed:    150, loss = 4382.085580[0m	
+[0mminibatches processed:    160, loss = 0.000000[0m	
+[0mminibatches processed:    170, loss = 0.000000[0m	
+[0mminibatches processed:    180, loss = 51550.242565[0m	
+[0mminibatches processed:    190, loss = 0.000000[0m	
+[0mminibatches processed:    200, loss = 0.000000[0m	
+[0mminibatches processed:    210, loss = 0.000000[0m	
+[0mminibatches processed:    220, loss = 4757.403500[0m	
+[0mminibatches processed:    230, loss = 11053.231296[0m	
+[0mminibatches processed:    240, loss = 1771.017744[0m	
+[0mminibatches processed:    250, loss = 20539.144133[0m	
+[0mminibatches processed:    260, loss = 96025.414718[0m	
+[0mminibatches processed:    270, loss = 0.000000[0m	
+[0mminibatches processed:    280, loss = 23777.324776[0m	
+[0mminibatches processed:    290, loss = 457.931554[0m	
+[0mminibatches processed:    300, loss = 0.000000[0m	
+[0mminibatches processed:    310, loss = 0.000000[0m	
+[0mminibatches processed:    320, loss = 22862.704164[0m	
+[0mminibatches processed:    330, loss = 47914.943965[0m	
+[0mminibatches processed:    340, loss = 17907.382674[0m	
+[0mminibatches processed:    350, loss = 133944.477977[0m	
+[0mminibatches processed:    360, loss = 24358.811928[0m	
+[0mminibatches processed:    370, loss = 0.000000[0m	
+[0mminibatches processed:    380, loss = 5593.209873[0m	
+[0mminibatches processed:    390, loss = 20864.919696[0m	
+[0mminibatches processed:    400, loss = 0.000000[0m	
+[0mminibatches processed:    410, loss = 14622.523974[0m	
+[0mminibatches processed:    420, loss = 0.000000[0m	
+[0mminibatches processed:    430, loss = 0.000000[0m	
+[0mminibatches processed:    440, loss = 2991.034429[0m	
+[0mminibatches processed:    450, loss = 42424.464996[0m	
+[0mminibatches processed:    460, loss = 0.000000[0m	
+[0mminibatches processed:    470, loss = 0.000000[0m	
+[0mminibatches processed:    480, loss = 0.000000[0m	
+[0mminibatches processed:    490, loss = 0.000000[0m	
+[0mminibatches processed:    500, loss = 5011.492683[0m	
+[0mminibatches processed:    510, loss = 12196.272769[0m	
+[0mminibatches processed:    520, loss = 38329.878604[0m	
+[0mminibatches processed:    530, loss = 0.000000[0m	
+[0mminibatches processed:    540, loss = 0.000000[0m	
+[0mminibatches processed:    550, loss = 0.000000[0m	
+[0mminibatches processed:    560, loss = 0.000000[0m	
+[0mminibatches processed:    570, loss = 61213.194229[0m	
+[0mminibatches processed:    580, loss = 0.000000[0m	
+[0mminibatches processed:    590, loss = 153506.742790[0m	
+[0mminibatches processed:    600, loss = 0.000000[0m	
+[0mminibatches processed:    610, loss = 6186.274872[0m	
+[0mminibatches processed:    620, loss = 4718.970121[0m	
+[0mminibatches processed:    630, loss = 0.000000[0m	
+[0mminibatches processed:    640, loss = 25577.871985[0m	
+[0mminibatches processed:    650, loss = 4097.771448[0m	
+[0mminibatches processed:    660, loss = 0.000000[0m	
+[0mminibatches processed:    670, loss = 0.000000[0m	
+[0mminibatches processed:    680, loss = 40176.757384[0m	
+[0mminibatches processed:    690, loss = 0.000000[0m	
+[0mminibatches processed:    700, loss = 0.000000[0m	
+[0mminibatches processed:    710, loss = 0.000000[0m	
+[0mminibatches processed:    720, loss = 18062.114302[0m	
+[0mminibatches processed:    730, loss = 1699.804485[0m	
+[0mminibatches processed:    740, loss = 0.000000[0m	
+[0mminibatches processed:    750, loss = 0.000000[0m	
+[0mminibatches processed:    760, loss = 30515.151652[0m	
+[0mminibatches processed:    770, loss = 83862.803506[0m	
+[0mminibatches processed:    780, loss = 0.000000[0m	
+[0mminibatches processed:    790, loss = 0.000000[0m	
+[0mminibatches processed:    800, loss = 35648.059754[0m	
+[0mminibatches processed:    810, loss = 30191.432744[0m	
+[0mminibatches processed:    820, loss = 59745.795017[0m	
+[0mminibatches processed:    830, loss = 0.000000[0m	
+[0mminibatches processed:    840, loss = 36797.974948[0m	
+[0mminibatches processed:    850, loss = 84730.092164[0m	
+[0mminibatches processed:    860, loss = 0.000000[0m	
+[0mminibatches processed:    870, loss = 2225.453735[0m	
+[0mminibatches processed:    880, loss = 6824.816842[0m	
+[0mminibatches processed:    890, loss = 10221.247086[0m	
+[0mminibatches processed:    900, loss = 8781.915514[0m	
+[0mminibatches processed:    910, loss = 0.000000[0m	
+[0mminibatches processed:    920, loss = 0.000000[0m	
+[0mminibatches processed:    930, loss = 4769.514101[0m	
+[0mminibatches processed:    940, loss = 0.000000[0m	
+[0mminibatches processed:    950, loss = 0.000000[0m	
+[0mminibatches processed:    960, loss = 0.000000[0m	
+[0mminibatches processed:    970, loss = 26259.775027[0m	
+[0mminibatches processed:    980, loss = 19912.096531[0m	
+[0mminibatches processed:    990, loss = 52106.135419[0m	
+[0mminibatches processed:   1000, loss = 17116.047199[0m	
+[0mminibatches processed:   1010, loss = 5643.685971[0m	
+[0mminibatches processed:   1020, loss = 0.000000[0m	
+[0mminibatches processed:   1030, loss = 3417.453222[0m	
+[0mminibatches processed:   1040, loss = 6928.558728[0m	
+[0mminibatches processed:   1050, loss = 0.000000[0m	
+[0mminibatches processed:   1060, loss = 29248.084485[0m	
+[0mminibatches processed:   1070, loss = 0.000000[0m	
+[0mminibatches processed:   1080, loss = 0.000000[0m	
+[0mminibatches processed:   1090, loss = 0.000000[0m	
+[0mminibatches processed:   1100, loss = 0.000000[0m	
+[0mminibatches processed:   1110, loss = 8539.760445[0m	
+[0mminibatches processed:   1120, loss = 26238.674678[0m	
+[0mminibatches processed:   1130, loss = 26338.439118[0m	
+[0mminibatches processed:   1140, loss = 29605.503793[0m	
+[0mminibatches processed:   1150, loss = 4738.388520[0m	
+[0mminibatches processed:   1160, loss = 0.000000[0m	
+[0mminibatches processed:   1170, loss = 0.000000[0m	
+[0mminibatches processed:   1180, loss = 29681.392411[0m	
+[0mminibatches processed:   1190, loss = 18483.711094[0m	
+[0mminibatches processed:   1200, loss = 0.000000[0m	
+[0mminibatches processed:   1210, loss = 0.000000[0m	
+[0mminibatches processed:   1220, loss = 1408.811973[0m	
+[0mminibatches processed:   1230, loss = 5781.277581[0m	
+[0mminibatches processed:   1240, loss = 0.000000[0m	
+[0mminibatches processed:   1250, loss = 0.000000[0m	
+[0mminibatches processed:   1260, loss = 0.000000[0m	
+[0mminibatches processed:   1270, loss = 0.000000[0m	
+[0mminibatches processed:   1280, loss = 0.000000[0m	
+[0mminibatches processed:   1290, loss = 1863.974485[0m	
+[0mminibatches processed:   1300, loss = 0.000000[0m	
+[0mminibatches processed:   1310, loss = 0.000000[0m	
+[0mminibatches processed:   1320, loss = 0.000000[0m	
+[0mminibatches processed:   1330, loss = 10642.073880[0m	
+[0mminibatches processed:   1340, loss = 0.000000[0m	
+[0mminibatches processed:   1350, loss = 1792.970608[0m	
+[0mminibatches processed:   1360, loss = 0.000000[0m	
+[0mminibatches processed:   1370, loss = 34019.882714[0m	
+[0mminibatches processed:   1380, loss = 0.000000[0m	
+[0mminibatches processed:   1390, loss = 0.000000[0m	
+[0mminibatches processed:   1400, loss = 7481.469596[0m	
+[0mminibatches processed:   1410, loss = 6020.364420[0m	
+[0mminibatches processed:   1420, loss = 21049.324754[0m	
+[0mminibatches processed:   1430, loss = 0.000000[0m	
+[0mminibatches processed:   1440, loss = 0.000000[0m	
+[0mminibatches processed:   1450, loss = 6883.602281[0m	
+[0mminibatches processed:   1460, loss = 34126.858468[0m	
+[0mminibatches processed:   1470, loss = 0.000000[0m	
+[0mminibatches processed:   1480, loss = 38960.242785[0m	
+[0mminibatches processed:   1490, loss = 16476.804942[0m	
+[0mminibatches processed:   1500, loss = 0.000000[0m	
+[0mminibatches processed:   1510, loss = 0.000000[0m	
+[0mminibatches processed:   1520, loss = 0.000000[0m	
+[0mminibatches processed:   1530, loss = 36707.339876[0m	
+[0mminibatches processed:   1540, loss = 1728.840518[0m	
+[0mminibatches processed:   1550, loss = 0.000000[0m	
+[0mminibatches processed:   1560, loss = 0.000000[0m	
+[0mminibatches processed:   1570, loss = 0.000000[0m	
+[0mminibatches processed:   1580, loss = 0.000000[0m	
+[0mminibatches processed:   1590, loss = 0.000000[0m	
+[0mminibatches processed:   1600, loss = 0.000000[0m	
+[0mminibatches processed:   1610, loss = 0.000000[0m	
+[0mminibatches processed:   1620, loss = 0.000000[0m	
+[0mminibatches processed:   1630, loss = 69514.727426[0m	
+[0mminibatches processed:   1640, loss = 21542.375469[0m	
+[0mminibatches processed:   1650, loss = 0.000000[0m	
+[0mminibatches processed:   1660, loss = 0.000000[0m	
+[0mminibatches processed:   1670, loss = 0.000000[0m	
+[0mminibatches processed:   1680, loss = 1294.295406[0m	
+[0mminibatches processed:   1690, loss = 92056.979417[0m	
+[0mminibatches processed:   1700, loss = 60716.152521[0m	
+[0mminibatches processed:   1710, loss = 33996.602717[0m	
+[0mminibatches processed:   1720, loss = 4295.505950[0m	
+[0mminibatches processed:   1730, loss = 0.000000[0m	
+[0mminibatches processed:   1740, loss = 0.000000[0m	
+[0mminibatches processed:   1750, loss = 0.000000[0m	
+[0mminibatches processed:   1760, loss = 29338.479830[0m	
+[0mminibatches processed:   1770, loss = 2237.431315[0m	
+[0mminibatches processed:   1780, loss = 0.000000[0m	
+[0mminibatches processed:   1790, loss = 3420.243427[0m	
+[0mminibatches processed:   1800, loss = 0.000000[0m	
+[0mminibatches processed:   1810, loss = 2043.699517[0m	
+[0mminibatches processed:   1820, loss = 37317.588525[0m	
+[0mminibatches processed:   1830, loss = 0.000000[0m	
+[0mminibatches processed:   1840, loss = 0.000000[0m	
+[0mminibatches processed:   1850, loss = 6774.900441[0m	
+[0mminibatches processed:   1860, loss = 4979.011625[0m	
+[0mminibatches processed:   1870, loss = 0.000000[0m	
+[0mminibatches processed:   1880, loss = 0.000000[0m	
+[0mminibatches processed:   1890, loss = 30917.430767[0m	
+[0mminibatches processed:   1900, loss = 1212.980209[0m	
+[0mminibatches processed:   1910, loss = 0.000000[0m	
+[0mminibatches processed:   1920, loss = 0.000000[0m	
+[0mminibatches processed:   1930, loss = 0.000000[0m	
+[0mminibatches processed:   1940, loss = 9067.589027[0m	
+[0mminibatches processed:   1950, loss = 0.000000[0m	
+[0mminibatches processed:   1960, loss = 0.000000[0m	
+[0mminibatches processed:   1970, loss = 0.000000[0m	
+[0mminibatches processed:   1980, loss = 0.000000[0m	
+[0mminibatches processed:   1990, loss = 0.000000[0m	
+[0mminibatches processed:   2000, loss = 0.000000[0m	
+[0mminibatches processed:   2010, loss = 1191.969156[0m	
+[0mminibatches processed:   2020, loss = 0.000000[0m	
+[0mminibatches processed:   2030, loss = 0.000000[0m	
+[0mminibatches processed:   2040, loss = 0.000000[0m	
+[0mminibatches processed:   2050, loss = 12105.472937[0m	
+[0mminibatches processed:   2060, loss = 11829.567872[0m	
+[0mminibatches processed:   2070, loss = 46070.897465[0m	
+[0mminibatches processed:   2080, loss = 0.000000[0m	
+[0mminibatches processed:   2090, loss = 0.000000[0m	
+[0mminibatches processed:   2100, loss = 0.000000[0m	
+[0mminibatches processed:   2110, loss = 7189.071355[0m	
+[0mminibatches processed:   2120, loss = 0.000000[0m	
+[0mminibatches processed:   2130, loss = 0.000000[0m	
+[0mminibatches processed:   2140, loss = 0.000000[0m	
+[0mminibatches processed:   2150, loss = 0.000000[0m	
+[0mminibatches processed:   2160, loss = 0.000000[0m	
+[0mminibatches processed:   2170, loss = 0.000000[0m	
+[0mminibatches processed:   2180, loss = 90589.717051[0m	
+[0mminibatches processed:   2190, loss = 0.000000[0m	
+[0mminibatches processed:   2200, loss = 0.000000[0m	
+[0mminibatches processed:   2210, loss = 0.000000[0m	
+[0mminibatches processed:   2220, loss = 0.000000[0m	
+[0mminibatches processed:   2230, loss = 0.000000[0m	
+[0mminibatches processed:   2240, loss = 0.000000[0m	
+[0mminibatches processed:   2250, loss = 20991.589386[0m	
+[0mminibatches processed:   2260, loss = 59400.297926[0m	
+[0mminibatches processed:   2270, loss = 0.000000[0m	
+[0mminibatches processed:   2280, loss = 0.000000[0m	
+[0mminibatches processed:   2290, loss = 3173.868794[0m	
+[0mminibatches processed:   2300, loss = 0.000000[0m	
+[0mminibatches processed:   2310, loss = 0.000000[0m	
+[0mminibatches processed:   2320, loss = 21781.812586[0m	
+[0mminibatches processed:   2330, loss = 24892.226888[0m	
+[0mminibatches processed:   2340, loss = 30864.328907[0m	
+[0mminibatches processed:   2350, loss = 43651.443706[0m	
+[0mminibatches processed:   2360, loss = 26658.356027[0m	
+[0mminibatches processed:   2370, loss = 0.000000[0m	
+[0mminibatches processed:   2380, loss = 7483.233568[0m	
+[0mminibatches processed:   2390, loss = 0.000000[0m	
+[0mminibatches processed:   2400, loss = 0.000000[0m	
+[0mminibatches processed:   2410, loss = 31101.166987[0m	
+[0mminibatches processed:   2420, loss = 0.000000[0m	
+[0mminibatches processed:   2430, loss = 0.000000[0m	
+[0mminibatches processed:   2440, loss = 0.000000[0m	
+[0mminibatches processed:   2450, loss = 64217.687118[0m	
+[0mminibatches processed:   2460, loss = 0.000000[0m	
+[0mminibatches processed:   2470, loss = 0.000000[0m	
+[0mminibatches processed:   2480, loss = 0.000000[0m	
+[0mminibatches processed:   2490, loss = 0.000000[0m	
+[0mminibatches processed:   2500, loss = 0.000000[0m	
+[0mminibatches processed:   2510, loss = 0.000000[0m	
+[0mminibatches processed:   2520, loss = 0.000000[0m	
+[0mminibatches processed:   2530, loss = 32442.560968[0m	
+[0mminibatches processed:   2540, loss = 0.000000[0m	
+[0mminibatches processed:   2550, loss = 0.000000[0m	
+[0mminibatches processed:   2560, loss = 0.000000[0m	
+[0mminibatches processed:   2570, loss = 21139.547838[0m	
+[0mminibatches processed:   2580, loss = 0.000000[0m	
+[0mminibatches processed:   2590, loss = 126243.906180[0m	
+[0mminibatches processed:   2600, loss = 0.000000[0m	
+[0mminibatches processed:   2610, loss = 0.000000[0m	
+[0mminibatches processed:   2620, loss = 9021.215678[0m	
+[0mminibatches processed:   2630, loss = 0.000000[0m	
+[0mminibatches processed:   2640, loss = 28253.493543[0m	
+[0mminibatches processed:   2650, loss = 26586.253703[0m	
+[0mminibatches processed:   2660, loss = 0.000000[0m	
+[0mminibatches processed:   2670, loss = 0.000000[0m	
+[0mminibatches processed:   2680, loss = 50864.475826[0m	
+[0mminibatches processed:   2690, loss = 0.000000[0m	
+[0mminibatches processed:   2700, loss = 0.000000[0m	
+[0mminibatches processed:   2710, loss = 0.000000[0m	
+[0mminibatches processed:   2720, loss = 10779.330085[0m	
+[0mminibatches processed:   2730, loss = 0.000000[0m	
+[0mminibatches processed:   2740, loss = 0.000000[0m	
+[0mminibatches processed:   2750, loss = 0.000000[0m	
+[0mminibatches processed:   2760, loss = 3965.628378[0m	
+[0mminibatches processed:   2770, loss = 63150.420044[0m	
+[0mminibatches processed:   2780, loss = 0.000000[0m	
+[0mminibatches processed:   2790, loss = 928.692658[0m	
+[0mminibatches processed:   2800, loss = 41213.841786[0m	
+[0mminibatches processed:   2810, loss = 0.000000[0m	
+[0mminibatches processed:   2820, loss = 145172.771726[0m	
+[0mminibatches processed:   2830, loss = 0.000000[0m	
+[0mminibatches processed:   2840, loss = 3966.516735[0m	
+[0mminibatches processed:   2850, loss = 83494.621982[0m	
+[0mminibatches processed:   2860, loss = 0.000000[0m	
+[0mminibatches processed:   2870, loss = 0.000000[0m	
+[0mminibatches processed:   2880, loss = 0.000000[0m	
+[0mminibatches processed:   2890, loss = 0.000000[0m	
+[0mminibatches processed:   2900, loss = 0.000000[0m	
+[0mminibatches processed:   2910, loss = 0.000000[0m	
+[0mminibatches processed:   2920, loss = 4416.609402[0m	
+[0mminibatches processed:   2930, loss = 0.000000[0m	
+[0mminibatches processed:   2940, loss = 0.000000[0m	
+[0mminibatches processed:   2950, loss = 0.000000[0m	
+[0mminibatches processed:   2960, loss = 0.000000[0m	
+[0mminibatches processed:   2970, loss = 0.000000[0m	
+[0mminibatches processed:   2980, loss = 16698.541821[0m	
+[0mminibatches processed:   2990, loss = 64703.714155[0m	
+[0mminibatches processed:   3000, loss = 0.000000[0m	
+[0mminibatches processed:   3010, loss = 0.000000[0m	
+[0mminibatches processed:   3020, loss = 0.000000[0m	
+[0mminibatches processed:   3030, loss = 0.000000[0m	
+[0mminibatches processed:   3040, loss = 0.000000[0m	
+[0mminibatches processed:   3050, loss = 0.000000[0m	
+[0mminibatches processed:   3060, loss = 0.000000[0m	
+[0mminibatches processed:   3070, loss = 0.000000[0m	
+[0mminibatches processed:   3080, loss = 0.000000[0m	
+[0mminibatches processed:   3090, loss = 0.000000[0m	
+[0mminibatches processed:   3100, loss = 0.000000[0m	
+[0mminibatches processed:   3110, loss = 0.000000[0m	
+[0mminibatches processed:   3120, loss = 4547.318898[0m	
+[0mminibatches processed:   3130, loss = 56917.285887[0m	
+[0mminibatches processed:   3140, loss = 19779.884948[0m	
+[0mminibatches processed:   3150, loss = 0.000000[0m	
+[0mminibatches processed:   3160, loss = 0.000000[0m	
+[0mminibatches processed:   3170, loss = 0.000000[0m	
+[0mminibatches processed:   3180, loss = 45684.885156[0m	
+[0mminibatches processed:   3190, loss = 24453.114295[0m	
+[0mminibatches processed:   3200, loss = 0.000000[0m	
+[0mminibatches processed:   3210, loss = 16943.170294[0m	
+[0mminibatches processed:   3220, loss = 14512.126651[0m	
+[0mminibatches processed:   3230, loss = 12432.807075[0m	
+[0mminibatches processed:   3240, loss = 0.000000[0m	
+[0mminibatches processed:   3250, loss = 0.000000[0m	
+[0mminibatches processed:   3260, loss = 0.000000[0m	
+[0mminibatches processed:   3270, loss = 0.000000[0m	
+[0mminibatches processed:   3280, loss = 0.000000[0m	
+[0mminibatches processed:   3290, loss = 0.000000[0m	
+[0mminibatches processed:   3300, loss = 10684.420254[0m	
+[0mminibatches processed:   3310, loss = 0.000000[0m	
+[0mminibatches processed:   3320, loss = 0.000000[0m	
+[0mminibatches processed:   3330, loss = 0.000000[0m	
+[0mminibatches processed:   3340, loss = 0.000000[0m	
+[0mminibatches processed:   3350, loss = 0.000000[0m	
+[0mminibatches processed:   3360, loss = 0.000000[0m	
+[0mminibatches processed:   3370, loss = 19461.264165[0m	
+[0mminibatches processed:   3380, loss = 0.000000[0m	
+[0mminibatches processed:   3390, loss = 0.000000[0m	
+[0mminibatches processed:   3400, loss = 30.407456[0m	
+[0mminibatches processed:   3410, loss = 0.000000[0m	
+[0mminibatches processed:   3420, loss = 2353.004894[0m	
+[0mminibatches processed:   3430, loss = 0.000000[0m	
+[0mminibatches processed:   3440, loss = 0.000000[0m	
+[0mminibatches processed:   3450, loss = 0.000000[0m	
+[0mminibatches processed:   3460, loss = 50068.404949[0m	
+[0mminibatches processed:   3470, loss = 0.000000[0m	
+[0mminibatches processed:   3480, loss = 50811.293718[0m	
+[0mminibatches processed:   3490, loss = 26242.898907[0m	
+[0mminibatches processed:   3500, loss = 0.000000[0m	
+[0mminibatches processed:   3510, loss = 0.000000[0m	
+[0mminibatches processed:   3520, loss = 0.000000[0m	
+[0mminibatches processed:   3530, loss = 0.000000[0m	
+[0mminibatches processed:   3540, loss = 0.000000[0m	
+[0mminibatches processed:   3550, loss = 15560.660777[0m	
+[0mminibatches processed:   3560, loss = 0.000000[0m	
+[0mminibatches processed:   3570, loss = 0.000000[0m	
+[0mminibatches processed:   3580, loss = 0.000000[0m	
+[0mminibatches processed:   3590, loss = 0.000000[0m	
+[0mminibatches processed:   3600, loss = 0.000000[0m	
+[0mminibatches processed:   3610, loss = 0.000000[0m	
+[0mminibatches processed:   3620, loss = 0.000000[0m	
+[0mminibatches processed:   3630, loss = 0.000000[0m	
+[0mminibatches processed:   3640, loss = 17798.749220[0m	
+[0mminibatches processed:   3650, loss = 9902.482089[0m	
+[0mminibatches processed:   3660, loss = 11770.315429[0m	
+[0mminibatches processed:   3670, loss = 0.000000[0m	
+[0mminibatches processed:   3680, loss = 14146.607396[0m	
+[0mminibatches processed:   3690, loss = 89901.127342[0m	
+[0mminibatches processed:   3700, loss = 0.000000[0m	
+[0mminibatches processed:   3710, loss = 0.000000[0m	
+[0mminibatches processed:   3720, loss = 0.000000[0m	
+[0mminibatches processed:   3730, loss = 0.000000[0m	
+[0mminibatches processed:   3740, loss = 0.000000[0m	
+[0mminibatches processed:   3750, loss = 0.000000[0m	
+[0mminibatches processed:   3760, loss = 30959.295498[0m	
+[0mminibatches processed:   3770, loss = 0.000000[0m	
+[0mminibatches processed:   3780, loss = 0.000000[0m	
+[0mminibatches processed:   3790, loss = 32891.727655[0m	
+[0mminibatches processed:   3800, loss = 0.000000[0m	
+[0mminibatches processed:   3810, loss = 14908.616099[0m	
+[0mminibatches processed:   3820, loss = 11657.593360[0m	
+[0mminibatches processed:   3830, loss = 0.000000[0m	
+[0mminibatches processed:   3840, loss = 0.000000[0m	
+[0mminibatches processed:   3850, loss = 3140.447562[0m	
+[0mminibatches processed:   3860, loss = 705.302406[0m	
+[0mminibatches processed:   3870, loss = 0.000000[0m	
+[0mminibatches processed:   3880, loss = 0.000000[0m	
+[0mminibatches processed:   3890, loss = 0.000000[0m	
+[0mminibatches processed:   3900, loss = 0.000000[0m	
+[0mminibatches processed:   3910, loss = 9831.872861[0m	
+[0mminibatches processed:   3920, loss = 0.000000[0m	
+[0mminibatches processed:   3930, loss = 18581.053302[0m	
+[0mminibatches processed:   3940, loss = 0.000000[0m	
+[0mminibatches processed:   3950, loss = 0.000000[0m	
+[0mminibatches processed:   3960, loss = 13799.710110[0m	
+[0mminibatches processed:   3970, loss = 0.000000[0m	
+[0mminibatches processed:   3980, loss = 0.000000[0m	
+[0mminibatches processed:   3990, loss = 26886.272513[0m	
+[0mminibatches processed:   4000, loss = 0.000000[0m	
+
+ 2000
+   10
+[torch.LongStorage of size 2]
+
+[0m----------------------[0m	
+  3
+ 10
+  8
+  1
+  4
+  9
+  2
+  2
+ 10
+  3
+  4
+ 10
+  1
+  7
+ 10
+  9
+  7
+  2
+ 10
+  3
+  1
+  3
+  8
+ 10
+  3
+  5
+  1
+  7
+  2
+  7
+ 10
+ 10
+ 10
+  7
+  2
+ 10
+  6
+  2
+  6
+  4
+  7
+  1
+  4
+  9
+  8
+  5
+  1
+  6
+  4
+ 10
+ 10
+  8
+  6
+ 10
+  5
+  2
+  2
+  6
+ 10
+  3
+  7
+ 10
+  5
+  8
+  7
+  1
+  8
+  3
+  7
+  8
+  9
+  1
+  9
+ 10
+  7
+  4
+  3
+  8
+  2
+  6
+  5
+  2
+  4
+  7
+  6
+  3
+  7
+  4
+  6
+  7
+  4
+  3
+  9
+  2
+  4
+ 10
+  2
+  6
+  2
+  1
+  5
+  4
+  7
+  3
+  7
+  8
+  8
+  2
+  7
+ 10
+  3
+ 10
+  1
+  1
+ 10
+  8
+ 10
+  4
+  2
+  7
+  9
+  2
+  7
+  8
+  5
+  8
+  3
+  1
+  6
+ 10
+  5
+  2
+  3
+  8
+  9
+  2
+  9
+ 10
+  7
+  7
+  1
+  4
+  1
+  4
+  4
+  7
+  2
+  9
+  2
+  1
+  2
+  6
+  8
+  8
+ 10
+  3
+ 10
+  1
+  9
+  5
+ 10
+  4
+  8
+  9
+  2
+ 10
+ 10
+  2
+  2
+  7
+  5
+  1
+ 10
+  8
+  1
+  8
+  3
+  9
+  7
+  5
+  8
+  4
+  6
+  2
+ 10
+  4
+  5
+  7
+  9
+  7
+  2
+  2
+  3
+  3
+  4
+  6
+ 10
+  5
+  8
+  4
+  9
+  3
+ 10
+  4
+  8
+  2
+  2
+  1
+  8
+  8
+  9
+  4
+ 10
+ 10
+  8
+  7
+  2
+  3
+  4
+ 10
+  8
+ 10
+  1
+ 10
+  7
+  9
+ 10
+ 10
+  5
+  8
+  4
+ 10
+  8
+  1
+  5
+  7
+  6
+ 10
+  8
+  6
+  8
+ 10
+ 10
+  5
+  2
+  1
+  8
+  2
+ 10
+  7
+  7
+  2
+  9
+  8
+  1
+ 10
+  5
+  8
+  7
+  7
+  2
+  9
+  7
+  5
+  2
+  8
+  6
+  8
+  2
+ 10
+ 10
+  9
+ 10
+  2
+  8
+  6
+ 10
+  4
+  2
+  7
+  2
+  8
+  8
+  2
+  3
+  4
+  8
+  1
+  8
+  7
+  7
+  7
+ 10
+ 10
+  6
+  4
+  2
+  9
+  9
+  8
+  9
+  4
+ 10
+ 10
+  4
+ 10
+  3
+  2
+  8
+  3
+  4
+ 10
+ 10
+  2
+  4
+  4
+ 10
+  7
+  7
+  1
+  3
+  4
+  3
+  2
+ 10
+  4
+  5
+  8
+  4
+  2
+  7
+  8
+ 10
+  6
+  7
+  4
+  2
+ 10
+  2
+ 10
+ 10
+  3
+  2
+ 10
+  4
+  2
+ 10
+  9
+ 10
+  4
+ 10
+ 10
+  4
+  6
+  2
+  7
+  6
+  8
+ 10
+  7
+ 10
+  4
+  2
+  4
+  6
+  7
+  3
+  8
+ 10
+  7
+  5
+  8
+  3
+ 10
+  4
+ 10
+  5
+  8
+  8
+  9
+  2
+  5
+  2
+  4
+  3
+  7
+ 10
+  7
+  5
+  2
+  7
+  4
+  4
+ 10
+  8
+  4
+ 10
+  9
+ 10
+  2
+  7
+ 10
+  6
+ 10
+  9
+  7
+  8
+  7
+ 10
+ 10
+  3
+  5
+  3
+  8
+ 10
+  7
+ 10
+  3
+  7
+  7
+  9
+  2
+  3
+  9
+  8
+  6
+  2
+  4
+ 10
+  8
+  2
+  2
+  1
+  9
+  6
+  8
+  4
+  2
+ 10
+  3
+  1
+  6
+  6
+  2
+  9
+  2
+ 10
+  7
+  1
+  2
+  8
+  8
+  3
+  8
+  2
+  2
+  3
+  7
+  5
+ 10
+  8
+  5
+  6
+  1
+  1
+  2
+ 10
+  5
+  5
+  8
+  9
+ 10
+  7
+  2
+  8
+ 10
+  4
+  1
+  2
+  1
+ 10
+  3
+  3
+ 10
+  2
+  4
+  9
+  4
+  4
+  7
+  8
+  8
+  2
+  2
+ 10
+  8
+  7
+  3
+  6
+  7
+  9
+  3
+  2
+  2
+  7
+  9
+  2
+  2
+  4
+  6
+  8
+  5
+  4
+  3
+  6
+  7
+  7
+  2
+  4
+  4
+ 10
+  5
+  4
+  2
+  9
+  2
+ 10
+  2
+  2
+  7
+  7
+  4
+ 10
+  7
+  2
+ 10
+ 10
+  3
+  8
+  2
+ 10
+  8
+  3
+  8
+  6
+  7
+  5
+ 10
+  5
+  6
+  4
+  8
+  2
+  6
+ 10
+  6
+  8
+  2
+  4
+ 10
+  3
+  2
+ 10
+  6
+  8
+ 10
+ 10
+  9
+  8
+ 10
+  1
+  7
+  4
+  5
+ 10
+  5
+  7
+  8
+  7
+ 10
+ 10
+  2
+  3
+  3
+  2
+  6
+  8
+  9
+  2
+  1
+  2
+ 10
+  4
+  2
+ 10
+ 10
+  4
+  8
+  5
+  9
+  1
+  7
+ 10
+  5
+  1
+  2
+  2
+  3
+  9
+  4
+  3
+  5
+  7
+  1
+  4
+ 10
+  2
+  2
+  6
+  8
+  8
+  3
+  8
+  2
+  4
+  4
+  3
+  7
+  9
+  7
+  7
+  3
+  5
+  4
+  2
+  3
+  3
+  5
+  8
+ 10
+ 10
+ 10
+  8
+  3
+  2
+  9
+ 10
+  1
+  6
+  2
+ 10
+  3
+ 10
+  9
+  1
+ 10
+  9
+  1
+  4
+  7
+  1
+  5
+  7
+  2
+  5
+  7
+  8
+  5
+ 10
+ 10
+  3
+  9
+  8
+  4
+ 10
+  5
+  2
+  7
+  3
+  8
+  9
+  2
+  4
+  2
+  2
+  1
+ 10
+  2
+  6
+  7
+  8
+  8
+ 10
+ 10
+  6
+  3
+  7
+  8
+  3
+  9
+  8
+  2
+  9
+  1
+  7
+ 10
+  2
+  1
+  1
+  4
+  3
+  2
+  7
+  9
+  9
+ 10
+  4
+  2
+  6
+ 10
+  4
+  4
+  9
+  7
+  9
+  2
+  6
+ 10
+  6
+  7
+  5
+  4
+  1
+ 10
+  2
+  4
+  7
+  1
+  2
+  5
+  7
+  4
+  2
+  4
+  8
+  7
+ 10
+ 10
+  4
+  6
+  7
+  1
+  6
+ 10
+  1
+  4
+  6
+ 10
+  5
+  8
+  7
+ 10
+  3
+  1
+  4
+  7
+ 10
+  1
+  7
+  2
+  8
+  1
+  9
+  9
+ 10
+ 10
+  2
+  8
+  1
+ 10
+  8
+  7
+  3
+ 10
+  7
+  6
+  7
+  3
+  8
+  8
+  4
+  7
+  7
+  6
+  2
+  4
+  4
+ 10
+  2
+  3
+  6
+  4
+  2
+  2
+  2
+  2
+ 10
+  2
+  7
+  8
+  2
+  6
+ 10
+  5
+  8
+ 10
+  4
+  4
+  7
+ 10
+  9
+  8
+  7
+  7
+  1
+  2
+  2
+  7
+  3
+  1
+  5
+  3
+  2
+  5
+  2
+  4
+  2
+ 10
+  7
+  2
+ 10
+  2
+  3
+ 10
+  3
+  8
+  7
+  7
+  1
+  2
+  2
+  4
+  5
+  4
+  8
+  2
+  4
+  5
+  8
+  7
+  7
+  1
+ 10
+  7
+ 10
+  5
+  4
+  4
+ 10
+ 10
+  8
+  8
+  8
+  7
+  3
+  9
+ 10
+ 10
+ 10
+  1
+  8
+  2
+  3
+  9
+  2
+  2
+  7
+  6
+  7
+  2
+  6
+  2
+  7
+  6
+  6
+  3
+  8
+  8
+  3
+ 10
+  3
+  3
+  7
+  8
+  1
+  7
+  8
+  8
+  2
+  3
+  4
+  2
+  8
+  7
+  5
+  2
+  8
+  2
+  7
+  2
+ 10
+  8
+  5
+  4
+  5
+  7
+  1
+  2
+ 10
+  7
+ 10
+  1
+  5
+  2
+ 10
+  5
+  3
+  8
+  9
+  2
+  4
+  7
+  7
+  7
+  8
+  1
+ 10
+  9
+  1
+  5
+  8
+  9
+ 10
+  8
+  1
+ 10
+  4
+  3
+  6
+  2
+ 10
+  5
+  8
+ 10
+  4
+ 10
+  4
+ 10
+  8
+  7
+  3
+  7
+  2
+  5
+  5
+  1
+  4
+  8
+ 10
+ 10
+  3
+  8
+  7
+  3
+ 10
+  6
+  3
+  1
+  7
+  8
+  5
+ 10
+ 10
+  9
+  4
+  7
+  7
+  2
+  9
+  4
+  8
+  1
+  8
+  9
+  8
+ 10
+  4
+ 10
+  8
+  5
+  9
+  9
+  7
+  7
+ 10
+  8
+  4
+  4
+ 10
+  3
+  1
+  4
+  6
+  3
+  3
+  3
+  6
+ 10
+  5
+  7
+  3
+  9
+  7
+  2
+  7
+  8
+  8
+  7
+  7
+  6
+ 10
+  5
+ 10
+  4
+  2
+  3
+  2
+  2
+  1
+  3
+  4
+ 10
+  5
+  7
+  9
+  9
+  2
+  8
+  2
+  5
+  2
+  1
+  9
+  6
+  4
+  7
+  1
+  2
+  6
+  7
+  2
+  4
+ 10
+  8
+  7
+  1
+  5
+ 10
+  7
+  4
+  7
+ 10
+  2
+  7
+  3
+  7
+  3
+  5
+  8
+  7
+  1
+  3
+  4
+  5
+  2
+  4
+ 10
+  6
+  1
+  2
+  3
+  8
+  8
+  7
+  5
+  5
+ 10
+ 10
+  1
+  1
+  7
+  2
+ 10
+  7
+  6
+  2
+  4
+  7
+  2
+  9
+  8
+  9
+  4
+  7
+  6
+  4
+  9
+  2
+  9
+  8
+  9
+  1
+  6
+  2
+ 10
+  3
+  4
+  8
+  5
+  5
+  8
+ 10
+  7
+ 10
+  4
+ 10
+  1
+  2
+  9
+  7
+  7
+  2
+  5
+ 10
+  7
+  4
+ 10
+  1
+  2
+  2
+  2
+  8
+  5
+ 10
+  4
+  3
+  4
+  6
+  9
+  7
+ 10
+  2
+  9
+  7
+  2
+ 10
+  8
+  1
+  8
+  7
+  6
+  7
+  1
+ 10
+  5
+ 10
+  1
+ 10
+ 10
+  2
+ 10
+  1
+  4
+  9
+  6
+  5
+  1
+  7
+  2
+  5
+  1
+ 10
+  5
+  9
+  1
+  2
+  4
+ 10
+ 10
+ 10
+  1
+  1
+  2
+  6
+  7
+  6
+  7
+ 10
+  8
+  4
+ 10
+  7
+  8
+  1
+  3
+  8
+  9
+  2
+ 10
+ 10
+ 10
+  2
+  9
+  7
+  8
+  2
+  2
+  1
+  2
+  7
+  6
+ 10
+  6
+  7
+  1
+  1
+ 10
+  4
+  1
+  2
+  2
+  7
+  8
+  2
+  7
+  4
+  2
+  7
+  7
+  3
+  2
+  8
+  5
+  8
+  4
+  2
+  2
+  4
+  4
+ 10
+  8
+  7
+  2
+  1
+  8
+  7
+  6
+  2
+  9
+  3
+  2
+  8
+  2
+  4
+  7
+  1
+  5
+  8
+  3
+ 10
+  7
+  3
+  2
+  7
+ 10
+  5
+  4
+  4
+  2
+  5
+  5
+ 10
+  7
+  8
+ 10
+  7
+  7
+ 10
+  1
+  7
+  5
+  2
+  2
+  8
+  8
+  3
+  2
+  8
+  3
+ 10
+  2
+  7
+  7
+  3
+  8
+  2
+  5
+  7
+  4
+  3
+  9
+  2
+ 10
+  2
+  4
+  7
+  4
+  1
+  2
+  7
+  5
+  8
+  6
+ 10
+  2
+  8
+  5
+  4
+  9
+  3
+  8
+ 10
+  1
+  1
+ 10
+  4
+  6
+  3
+  5
+  3
+ 10
+  7
+  2
+  2
+  2
+ 10
+  1
+  7
+  8
+  9
+  4
+  2
+  8
+  2
+  7
+  7
+  6
+ 10
+  1
+ 10
+  4
+  6
+  2
+  3
+  8
+  2
+ 10
+ 10
+  6
+  3
+  8
+  7
+  2
+  2
+  3
+  4
+ 10
+  7
+  6
+  3
+  1
+  5
+  7
+  2
+  6
+ 10
+ 10
+ 10
+  3
+  2
+  4
+  2
+  9
+  9
+  5
+  5
+ 10
+  9
+  4
+  2
+ 10
+  6
+  8
+ 10
+ 10
+ 10
+  2
+  2
+  3
+  1
+ 10
+  9
+  4
+  6
+  7
+  5
+  8
+ 10
+  8
+  2
+  6
+  8
+  1
+  2
+  2
+  7
+  9
+  3
+  1
+  7
+  8
+  7
+  7
+ 10
+  8
+  2
+  6
+  4
+  4
+ 10
+  8
+  6
+  3
+  2
+  8
+  9
+ 10
+  2
+  5
+  1
+ 10
+  7
+  5
+  2
+  2
+  9
+  4
+  7
+  2
+ 10
+  8
+  9
+ 10
+  3
+  2
+  7
+ 10
+  7
+ 10
+  1
+ 10
+  9
+  9
+  2
+  2
+  2
+ 10
+ 10
+  9
+  1
+  4
+  4
+  7
+  7
+  8
+  7
+  8
+  4
+  9
+ 10
+  1
+ 10
+  2
+  5
+  1
+  8
+  4
+  2
+  3
+  6
+  5
+ 10
+ 10
+  2
+  3
+ 10
+  2
+  5
+  8
+  7
+  5
+  7
+  6
+  4
+  1
+  7
+  2
+ 10
+  5
+ 10
+  2
+ 10
+  7
+  9
+  7
+  5
+  2
+  6
+  6
+  2
+ 10
+  9
+  5
+  2
+  7
+ 10
+ 10
+  2
+  2
+  9
+  2
+ 10
+ 10
+  2
+  9
+  4
+  5
+  5
+  4
+  7
+  5
+  3
+  8
+  4
+  1
+  4
+ 10
+ 10
+  6
+  1
+ 10
+  4
+  6
+  9
+  6
+  8
+  7
+  2
+  1
+  4
+  8
+  8
+  8
+  7
+  5
+  5
+  4
+  2
+  5
+  8
+  6
+  2
+  6
+  7
+  6
+  2
+ 10
+  1
+  4
+  4
+  4
+  1
+  7
+  7
+  2
+  2
+  8
+  3
+  4
+  2
+  6
+  6
+ 10
+  8
+  1
+  4
+  4
+  4
+ 10
+  6
+  7
+ 10
+  4
+  8
+  2
+ 10
+  7
+  1
+  1
+ 10
+  2
+  1
+  4
+  2
+  2
+  7
+  2
+ 10
+ 10
+  8
+  7
+  2
+  3
+  1
+ 10
+ 10
+  4
+  3
+  9
+  1
+  9
+ 10
+  2
+  2
+  2
+  9
+  4
+ 10
+  2
+  1
+  7
+ 10
+  4
+  7
+  5
+  6
+  7
+  2
+  8
+  6
+  2
+  1
+  5
+  5
+  3
+  1
+  3
+  6
+ 10
+  8
+  9
+  2
+  2
+  4
+  3
+ 10
+ 10
+ 10
+  4
+  9
+  7
+  8
+ 10
+  6
+  5
+  7
+  8
+  4
+  9
+ 10
+ 10
+  2
+  5
+ 10
+  4
+  7
+ 10
+  1
+  2
+  8
+  6
+  2
+  1
+  4
+  8
+  6
+  4
+  8
+  7
+ 10
+  8
+  6
+  4
+  9
+  9
+  3
+  9
+  4
+  4
+  5
+ 10
+  6
+  3
+  1
+  2
+  6
+ 10
+  5
+  1
+  7
+  1
+ 10
+  6
+  8
+ 10
+  7
+  2
+  4
+  2
+ 10
+  5
+  3
+  4
+  2
+ 10
+ 10
+  8
+  5
+  2
+  6
+  4
+  2
+  6
+  5
+  8
+  1
+  1
+  6
+  8
+  5
+  8
+  7
+  2
+  5
+  5
+  7
+  8
+ 10
+  6
+  4
+  4
+  7
+ 10
+  5
+  5
+ 10
+  9
+  9
+  8
+ 10
+  2
+  2
+ 10
+ 10
+ 10
+  6
+  3
+  7
+ 10
+  5
+  3
+  5
+  9
+  2
+  8
+  4
+  1
+  6
+  1
+  2
+  6
+  2
+  9
+  9
+  4
+  2
+  9
+  7
+  2
+  3
+  2
+  1
+  4
+  5
+  6
+  7
+  4
+  8
+  2
+  8
+  1
+  5
+  1
+  8
+  9
+ 10
+  5
+  2
+  9
+ 10
+  4
+  7
+  9
+  7
+  8
+  6
+  9
+  8
+ 10
+  8
+  3
+ 10
+ 10
+  3
+  2
+  6
+  8
+  5
+ 10
+  1
+ 10
+  6
+  4
+  5
+  8
+  9
+  1
+  2
+  6
+  7
+ 10
+  5
+  4
+  9
+  7
+  5
+ 10
+  8
+  4
+  2
+  1
+ 10
+  5
+  2
+  8
+ 10
+  3
+  9
+  3
+  4
+  7
+  8
+  6
+  2
+ 10
+  8
+  2
+  1
+  8
+  7
+  2
+ 10
+ 10
+  6
+  7
+ 10
+  2
+  8
+  8
+  7
+ 10
+  8
+ 10
+  2
+ 10
+  4
+  6
+  7
+ 10
+  2
+  2
+  2
+  4
+  8
+  9
+ 10
+  2
+  3
+ 10
+  5
+  7
+  7
+ 10
+  2
+ 10
+  3
+  7
+  4
+ 10
+ 10
+  7
+ 10
+  6
+  7
+  9
+  7
+  7
+  4
+  9
+  9
+  2
+ 10
+  8
+  4
+ 10
+  6
+  9
+  2
+  4
+  6
+  3
+ 10
+  8
+  2
+  7
+  3
+ 10
+  9
+  4
+  6
+ 10
+  7
+  5
+  3
+ 10
+  7
+  8
+  2
+  9
+  7
+  6
+ 10
+  4
+  1
+  2
+  1
+  4
+  2
+  3
+  6
+[torch.LongTensor of size 2000x1]
+
+[0m----------------------[0m	
+[0;36m0[0m	
